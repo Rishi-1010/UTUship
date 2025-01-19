@@ -49,7 +49,7 @@ UTUship/
      likes TEXT,
      dislikes TEXT
    );
-
+```
    ## Project Setup
    1. Clone the repository using Git: 
    `git clone https://github.com/your-username/
