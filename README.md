@@ -1,4 +1,4 @@
-# UTUship# UTUship
+# UTUship
 
 ## Project Overview
 UTUship is a social connection platform designed for the students of Uka Tarsadia University. The platform allows students to create anonymous profiles with just their profile pictures and names. Students can view other profiles, and in the future, we plan to add features like matching and subscriptions.
