@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include '../src/db.php';
 
 $name = $_POST['name'];
 $profile_picture = $_POST['profile_picture'];

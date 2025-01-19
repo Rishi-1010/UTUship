@@ -4,10 +4,12 @@
 UTUship is a social connection platform designed for the students of Uka Tarsadia University. The platform allows students to create anonymous profiles with just their profile pictures and names. Students can view other profiles, and in the future, we plan to add features like matching and subscriptions.
 
 ## Features
-- User Registration: Students can register with their name and profile picture.
+- User Registration: Students can register with their name, username, email, password, and profile picture.
+- User Login: Students can log in using their username or email and password.
 - Anonymous Profiles: Only profile pictures and names are displayed.
 - View Profiles: Students can view the profiles of other students.
 - Mobile-Friendly: The website is designed to be mobile-friendly using Bootstrap.
+- Swipe Functionality: Users can swipe right to like and left to dislike profiles.
 
 ## Technology Stack
 - **Backend**: PHP
@@ -17,16 +19,30 @@ UTUship is a social connection platform designed for the students of Uka Tarsadi
 
 ## Project Structure
 ```
-UTUship/ 
-│ 
-├── auth/ 
-│ └── register.php 
-├── src/ 
-│ ├── db.php
-│ ├── get_users.php 
-├── index.html 
-└──README.md
+UTUship/
+├── auth/
+│   ├── login/
+│   │   ├── login.html
+│   │   ├── login.php
+│   ├── registration/
+│   │   ├── register.html
+│   │   ├── register.php
+│   │   ├── fetchuser.php
+├── src/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   ├── login.js
+│   │   ├── register.js
+│   │   ├── swipe.js
+│   ├── db.php
+│   ├── get_users.php
+├── uploads/
+├── index.php
+├── README.md
+
 ```
+
 
 ## Setup Instructions
 
@@ -45,6 +61,9 @@ UTUship/
    CREATE TABLE users (
      id INT AUTO_INCREMENT PRIMARY KEY,
      name VARCHAR(255) NOT NULL,
+     username VARCHAR(16) NOT NULL UNIQUE,
+     email VARCHAR(255) NOT NULL,
+     password VARCHAR(255) NOT NULL,
      profile_picture VARCHAR(255) NOT NULL,
      likes TEXT,
      dislikes TEXT
