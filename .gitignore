@@ -1,0 +1,20 @@
+// filepath: C:/xampp/htdocs/UTUship/.gitignore
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.dbW
+
+# Ignore XAMPP specific files
+xamppfiles/
