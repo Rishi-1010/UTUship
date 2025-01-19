@@ -64,7 +64,8 @@ UTUship/
 
 3. Start the Apache and MySQL servers using XAMPP.
 
-4. Open your browser and navigate to ```
+4. Open your browser and navigate to 
+```
 http://localhost/UTUship/index.html
 ```.
 
