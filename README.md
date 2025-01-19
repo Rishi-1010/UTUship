@@ -16,6 +16,7 @@ UTUship is a social connection platform designed for the students of Uka Tarsadi
 - **Version Control**: Git
 
 ## Project Structure
+```
 UTUship/ 
 │ 
 ├── auth/ 
@@ -25,6 +26,7 @@ UTUship/
 │ ├── get_users.php 
 ├── index.html 
 └──README.md
+```
 
 ## Setup Instructions
 
