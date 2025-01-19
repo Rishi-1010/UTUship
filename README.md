@@ -67,7 +67,7 @@ UTUship/
 4. Open your browser and navigate to 
 ```
 http://localhost/UTUship/index.html
-```.
+```
 
  ### Usage
  - Register a User: Use the register.php endpoint to register a new user.
