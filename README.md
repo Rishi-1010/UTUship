@@ -58,9 +58,9 @@ UTUship/
    ```
 
 2. Place the project in the htdocs directory of your XAMPP installation:
-```
-mv UTUship /c/xampp/htdocs/
-```
+    ```
+    mv UTUship /c/xampp/htdocs/
+    ```
 
 3. Start the Apache and MySQL servers using XAMPP.
 
