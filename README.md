@@ -1,3 +1,5 @@
+![Project Preview](src/assets/img/preview.png)
+
 # UTUship
 
 ## Project Overview
