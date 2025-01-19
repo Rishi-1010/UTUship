@@ -52,15 +52,21 @@ UTUship/
 
    ## Project Setup
 1. Clone the repository using Git: 
-   ```git clone https://github.com/your-username/
-   cd UTUship```
+   ```
+   git clone https://github.com/your-username/
+   cd UTUship
+   ```
 
 2. Place the project in the htdocs directory of your XAMPP installation:
-```mv UTUship /c/xampp/htdocs/```
+```
+mv UTUship /c/xampp/htdocs/
+```
 
 3. Start the Apache and MySQL servers using XAMPP.
 
-4. Open your browser and navigate to ```http://localhost/UTUship/index.html```.
+4. Open your browser and navigate to ```
+http://localhost/UTUship/index.html
+```.
 
  ### Usage
  - Register a User: Use the register.php endpoint to register a new user.
